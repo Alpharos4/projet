@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <?php require_once 'utils/head.php'; ?>
+    <meta charset="utf-8">
+    <title>Connexion</title>
+</head>
+<body>
+<header>
+    <h1>Connexion</h1>
+    <ul>
+        <li><a href="contacter.php">Contact</a></li>
+    </ul>
+</header>
+<main div class="connexion">
+    <form div class="cadreConexInscr" method="POST">
+        <label for="email"><p>Email : </p></label>
+        <input id="email" type="text" required placeholder="Email" name="email">
+
+        <label for="motDePasse"><p>Mot de passe : </p></label>
+        <input id="motDePasse" type="text" required placeholder="Mot De Passe" name="motDePasse">
+        <br>
+        <input type="submit" id="submit" value="continuer" name="valider">
+
+        <a href="inscription.php"><p>s'inscrire</p></a>
+
+    </form>
+</main>
+<?php require_once 'utils/footer.php'; ?>
+</body>
+</html>
